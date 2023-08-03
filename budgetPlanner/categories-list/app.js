@@ -7,8 +7,8 @@ const root = document.querySelector('#root');
 root.append(navbar());
 root.append(
     list({
-      id : "listOfCategories",
-      components: [listOfCategories("listOfCategories")],
-      clas: "bg-dark",
+      ulId: "listOfCategories",
+      components: [...listOfCategories()],
+      clas: "bg-secondary"
   })
 );
